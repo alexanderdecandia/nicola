@@ -7,7 +7,7 @@
                 milestone(1)
                 kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
-                    configs: 'mysql-deployment.yaml',
+                    #configs: 'mysql-deployment.yaml',
                     configs: 'wordpress-deployment.yaml',
                     enableConfigSubstitution: true
                 )
